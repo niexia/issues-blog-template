@@ -15,7 +15,7 @@ var config = {
   sep: ' - ',
   /** GitHub账号 */
   user: 'niexia', 
-  /** GitHub res 名称 */
+  /** GitHub repo 名称 */
   repo: 'niexia.github.io',
   /** 每页多少篇博客 */
   per_page: 15,
