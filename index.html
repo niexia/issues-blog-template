@@ -16,7 +16,7 @@
       <nav class="header__nav" v-show="headerVisible">
         <router-link to="/">Blog</router-link>
         <router-link to="project">Project</router-link>
-        <a href="https://github.com/niexia" target="_blank"><i class="fab fa-github"></i></a>
+        <a :href="'https://github.com/' + config.user" target="_blank"><i class="fab fa-github"></i></a>
       </nav>
     </div>
     <div class="view__wrapper">
@@ -24,10 +24,10 @@
       <div class="view__footer">
         <p class="copyright text-muted">
           Copyright &copy;{{config.user}}<br>
-          Powered by <a href="http://niexia.github.io">{{config.blogname}}</a> |
+          Powered by Vuejs</a> |
           <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
             height="20px"
-            src="https://ghbtns.com/github-btn.html?user=niexia&repo=niexia.github.io&type=star&count=true">
+            :src="'https://ghbtns.com/github-btn.html?user='+config.user+'&repo='+config.repo+'&type=star&count=true'">
           </iframe>
         </p>
       </div>
