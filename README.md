@@ -7,7 +7,7 @@
 将下面的配置改成你自己 github 用户名称和 repo 名称.
 
 **config.js**
-```
+```js
 var config = {
   /** 博客名称 */
   blogname: 'Blog',
